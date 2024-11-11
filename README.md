@@ -40,9 +40,7 @@ The following are examples of research questions that could be answered with the
 
 
 ## Project Components:
-
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/design/vp4qLoOS38t8yTzsM5GVWy/python-(Community)?node-id=0-1&embed-host=share" allowfullscreen></iframe>
-
+<img width="580" alt="Architecture" src="https://github.com/user-attachments/assets/326ff47c-91aa-48a0-a9cf-1b86c8b74f7e">
 
 
 
