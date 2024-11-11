@@ -1,0 +1,17 @@
+pandas==1.5.3
+numpy==1.23.5
+python-dotenv==1.0.0
+pytest==7.1.2
+faker==23.2.1
+pyspark==3.4.1
+kafka-python==2.0.2
+google-cloud-storage==2.6.0
+google-cloud-bigquery==3.6.0
+google-auth==2.21.0
+google-cloud-logging==2.7.0
+SQLAlchemy==1.4.39
+pg8000==1.29.1
+flake8==4.0.1
+black==22.3.0
+sqlfluff==2.3.2
+confluent-kafka==1.9.2
