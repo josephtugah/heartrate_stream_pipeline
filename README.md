@@ -47,9 +47,9 @@ The following are examples of research questions that could be answered with the
 
 Synthetic operational data is generated (users data, activities data) that will be used to provide further context to each heart rate stream record. 
 
-The users and activities data were generated using the Faker library inside custom python scripts that can be adjusted and re-used when needed. Each script generates a pandas DataFrame object and uploads the object as a static CSV file. The CSV data is then manually uploaded to a mock operational OLTP database (running on PostgreSQL) hosted on an RDS instance. 
+The users and activities data were generated using the Faker library inside custom python scripts that can be adjusted and re-used when needed. Each script generates a pandas DataFrame object and uploads the object as a static CSV file. The CSV data is stored in a GCP bucket.
 
-Further information with regards to the synthetic OLTP data may be found inside the `mock-data/static` directory.
+Further information with regards to the data may be found inside the `mock-data/static` directory.
 
 To run the python scripts and re-create the CSV files:
 
