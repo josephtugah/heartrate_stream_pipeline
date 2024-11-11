@@ -1,0 +1,36 @@
+{
+    "bigquery": {
+        "project_id": "pub-stream-project-438013",
+        "datasets": {
+            "bronze": {
+                "dataset": "hrs_bronze",
+                "tables": {
+                    "raw_users": "raw_user",
+                    "raw_activities": "raw_activity",
+                    "heartrate_stream": "heartrate_stream"
+                }
+            },
+            "silver": {
+                "dataset": "hrs_silver",
+                "tables": {
+                    "dim_users": "dim_users",
+                    "dim_activities": "dim_activities",
+                    "heart_rate_cleaned": "heart_rate_cleaned",
+                    "dim_date": "dim_date",
+                    "dim_time": "dim_time"
+                }
+            },
+            "gold": {
+                "dataset": "hrs_gold",
+                "tables": {
+                    "fct_heart_rate": "fct_heart_rate",
+                    "dim_users": "dim_users",
+                    "dim_activities": "dim_activities",
+                    "dim_date": "dim_date",
+                    "dim_time": "dim_time"
+                }
+            }
+        },
+        "temp_gcs_bucket": "hrs_dataproc_bucket"
+    }
+}
