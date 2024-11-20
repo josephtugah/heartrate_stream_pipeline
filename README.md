@@ -92,7 +92,7 @@ To run a custom made script to generate JSON and AVRO files with mock heart rate
 
 A Kafka cluster and topic were established for real-time data ingestion using GCP Managed Kafka Service. The topic was divided into 6 partitions, enabling Kafka to parallelize the stream processing and allow for scalability (not truly necessary as data was written synchronously inside the `producer.py` script). The default value of '1 Week' was selected as the retention period for each message. 
 
-GCP's Datastream API facilated the efficient data transfer from the kakfka topic to a GCS bucket as a sink. An IAM role was configured to granted the compute engine default service account the necessary permissions to write data to the GCS bucket. 
+GCP's Datastream API facilated the efficient data transfer from the kakfka topic to a GCS bucket as a sink. An IAM role was configured to grant the compute engine default service account the necessary permissions to write data to the GCS bucket. 
 
 
 Kafka topic data lineage: 
