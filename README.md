@@ -40,8 +40,8 @@ The following are examples of research questions that could be answered with the
 
 
 ## Project Components:
-<img width="935" alt="Architecture" src="https://github.com/user-attachments/assets/e5593b78-1fe7-439e-8526-cb6b5bcf8d13">
 
+![Screenshot 2024-11-28 133242](https://github.com/user-attachments/assets/30eeaf78-b920-4e2b-be05-4a72c35aec35)
 
 ### 1. Synthetic OLTP Data Generation 
 
